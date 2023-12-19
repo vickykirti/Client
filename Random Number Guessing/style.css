@@ -1,0 +1,44 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #212121;
+  color: white;
+}
+
+#div1 {
+  background-color: rgb(102, 102, 102);
+  border-radius: 10px;
+  height: 300px;
+  width: 300px;
+  margin-top: 200px;
+  margin-left: 540px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+#inputnumber {
+  margin-bottom: 5px;
+  height: 30px;
+  outline: 0;
+  border: 0;
+  border-radius: 6px;
+  text-align: center;
+}
+
+#buttonsubmit {
+  margin-top: 5px;
+  height: 30px;
+  outline: 0;
+  border: 0;
+  width: 175px;
+  border-radius: 6px;
+  background-color: rgb(28, 75, 122);
+  cursor: pointer;
+  font-size: 20px;
+  color: white;
+}
