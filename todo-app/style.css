@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background: #555;
+  padding: 5px;
+}
+
+.todo-app {
+  width: 100%;
+  max-width: 500px;
+  background: #fff;
+  margin: 100px auto;
+  padding: 30px 40px 30px;
+  border-radius: 10px;
+}
+
+.todo-image {
+  width: 50px;
+}
+
+.app-body {
+  color: #002559;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inner-app-body {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 200px;
+  border-radius: 10px;
+}
+
+input {
+  border-radius: 8px;
+  border: 3px solid orange;
+  box-shadow: 5px;
+  height: 40px;
+}
+
+button {
+  border-radius: 10px;
+  border: none;
+  background: rgb(101, 212, 101);
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+}
+
+ul li {
+  position: relative;
+  top: -150px;
+  left: 180px;
+  list-style: none;
+  font-size: 15px;
+  padding: 10px 100px 15px 5px;
+  user-select: none;
+}
+
+ul li::before {
+  content: "";
+  position: absolute;
+  left: -25px;
+  bottom: 13px;
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  border: 0.5px solid black;
+  background-image: none;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.check {
+  text-decoration: line-through;
+}
+
+.check::before {
+  background-image: url(images/tick-icon.jpg);
+  border: none;
+}
+
+ul li span {
+  position: absolute;
+  left: 250px;
+  text-align: center;
+  width: 20px;
+  text-align: center;
+}
+
+ul li span:hover {
+  background-color: #e9958f;
+}
